@@ -1,0 +1,30 @@
+$mobile: 580px;
+$tablet: 768px;
+$smallScreen: 1024px;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+h1 {
+  font-size: 5rem;
+}
+h2 {
+  font-size: 4rem;
+}
+h3 {
+  font-size: 3rem;
+}
+h4 {
+  font-size: 2rem;
+}
+// p {
+//   font-size: 1.6rem;
+// }

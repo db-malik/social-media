@@ -1,0 +1,65 @@
+.loginContainer {
+  background-color: rgb(193, 190, 255);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .card {
+    background-color: #fff;
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    button {
+      width: 60%;
+      background-color: rgba(67, 58, 245, 0.7);
+      padding: 10px 20px;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      color: white;
+    }
+    @media only screen and (max-width: 768px) {
+      flex-direction: column;
+      width: 100%;
+    }
+    .right,
+    .left {
+      padding: 30px;
+      display: flex;
+      flex: 1;
+      justify-content: center;
+      flex-direction: column;
+      gap: 30px;
+    }
+    .left {
+      color: wheat;
+      align-items: center;
+      background: linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.5)),
+        url('https://images.pexels.com/photos/3228727/pexels-photo-3228727.jpeg?auto=compress&cs=tinysrgb&w=1600')
+          center;
+      background-size: cover;
+      h1 {
+        line-height: 40px;
+      }
+    }
+
+    .right {
+      flex: 1;
+      align-items: left;
+      color: rgba(0, 0, 0, 0.7);
+      form {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        gap: 20px;
+      }
+      input {
+        border: none;
+        border-bottom: 1px solid lightgray;
+        padding: 20px 10px;
+      }
+    }
+  }
+}
